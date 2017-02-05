@@ -56,13 +56,13 @@ package com.java.training;
                 } catch (Exception e) {
                     System.out.println("Exception");
                 }
-            Synchronized(o){
+            //Synchronized(o){
 
                 }
-            o.notifyAll();
+            //o.notifyAll();
 
             }
-        }
+        //}
 
 
         public static void main(String[] args) {
